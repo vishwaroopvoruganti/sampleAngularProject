@@ -1,0 +1,17 @@
+<app-header></app-header>
+<button (click)="getAllStudents()">Search</button>
+<!-- {{studentList | json}} -->
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Salary</th>
+  </tr>
+  <tr *ngFor="let student of studentList; let i=index;">
+    <td>{{student.id}}</td>
+    <td>{{student.employee_name}}</td>
+    <td>{{student.employee_age}}</td>
+    <td>{{student.employee_salary}}</td>
+  </tr>
+</table>
