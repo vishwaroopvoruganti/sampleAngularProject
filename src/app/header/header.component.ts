@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -13,8 +13,13 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  goTo(){
+  onSelect(){
+    this.router.navigate(['home']);
+  }
+  onSelectAbout(){
     this.router.navigate(['about']);
   }
-
+  onSelectCareers(){
+    this.router.navigate(['careers']);
+  }
 }

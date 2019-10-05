@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  // changeText: boolean;
+
+  // constructor(){
+  //   this.changeText = false;
+  // }
+
   constructor() { }
 
   ngOnInit() {

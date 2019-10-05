@@ -1,8 +1,10 @@
 <div class="navigation">
-    <li>Home</li>
-  <li (click)="goTo()">About</li>
-  <li>Careers</li>
   
+  <h2>Employee Information</h2>
+  <li (click)="onSelect('home')">Home</li>
+  <li (click)="onSelectAbout('about')">About</li>
+  <li (click)="onSelectCareers('careers')">Careers</li>
+
   <div class="buttons">
   <button class="btn-primary">Sign In</button>
   <button class="btn-secondary">Sign Out</button>

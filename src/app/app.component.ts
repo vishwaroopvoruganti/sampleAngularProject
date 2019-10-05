@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  
+  changeText: boolean;
+
+  // constructor(private appComponent: AppComponent){
+  //   this.changeText = false;
+  //  }
+
 
   title = 'my-new-project';
   studentList: any;
